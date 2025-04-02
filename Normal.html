@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../単位認定課題/css/Easy.css" />
+    <title>NormalMode</title>
+  </head>
+  <body>
+    <div class="main">
+      <button style="margin-top: 5%" id="start">START</button>
+      <ul class="Zandaka">
+        <li>
+          <p style="font-size: 30px">あなたの枚数：<span id="Kin"></span></p>
+          <!-- コインの増減表示 -->
+          <span id="zougen1"></span>
+        </li>
+        <li>
+          <p style="font-size: 30px">あいての枚数：<span id="botKin"></span></p>
+          <!-- コインの増減表示 -->
+          <span id="zougen2"></span>
+        </li>
+      </ul>
+      <ul class="card">
+        <p style="font-size: 20px">選択できる数字はこれらの範囲からです。</p>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+      </ul>
+      <label style="font-size: 30px" for="num1">数字:</label>
+      <input style="font-size: 30px" type="number" id="num1" /><br />
+      <span style="font-size: 50px" id="tyukoku" hidden></span>
+      <!--勝ったらtableを透明にして「 YOU WIN!! 」を表示する-->
+      <table style="margin-top: 2%" border="3" class="table">
+        <tr>
+          <!-- 数字表示 -->
+          <th>あなた</th>
+          <th>ｂｏｔ</th>
+        </tr>
+        <tr>
+          <th><span id="P"></span></th>
+          <th><span id="C"></span></th>
+        </tr>
+        <!-- 掛け金 -->
+      </table>
+      <p style="justify-content: center; margin: auto">答えはここ</p>
+      <p style="justify-content: center; margin: auto">↓</p>
+      <p style="margin-top: 5%" id="answer" class="answer"></p>
+    </div>
+    <script src="../単位認定課題/scriptFail/Easy.js"></script>
+  </body>
+</html>

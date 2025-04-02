@@ -1,0 +1,38 @@
+.main {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  background-color: rgba(0, 255, 255, 0.288);
+  width: 1500px;
+  height: 1000px;
+  border-radius: 50px;
+}
+p {
+  justify-content: center;
+  margin: auto;
+  color: red;
+  font-size: 90px;
+}
+ul {
+  justify-content: center;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  gap: 10%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  text-align: center;
+  width: 500px;
+  height: 100px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  background-color: gray;
+  padding-top: 20px;
+  margin-top: 10%;
+  color: white;
+  font-size: 50px;
+}
